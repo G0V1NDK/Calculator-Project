@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/dusk/344/apple-calculator.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css">
     <title>My Calculator</title>
@@ -22,47 +23,49 @@
             <div class="btn-screen h-fit grid grid-row-5 space-y-4">
                 <!-- row-1 -->
                 <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">AC</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">+/-</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">%</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">÷</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">AC</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">(</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">)</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-orange-500 active:bg-orange-500 text-2xl">/</button>
                 </div>
                 <!-- row-2 -->
                 <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">7</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">8</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">9</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">×</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">7</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">8</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">9</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-orange-500 active:bg-orange-500 text-2xl">×</button>
                 </div>
                 <!-- row-3 -->
                 <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">4</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">5</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">6</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">-</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">4</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">5</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">6</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-orange-500 active:bg-orange-500 text-2xl">-</button>
                 </div>
                 <!-- row-4 -->
                 <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">1</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">2</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">3</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">+</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">1</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">2</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">3</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-orange-500 active:bg-orange-500 text-2xl">+</button>
                 </div>
                 <!-- row-5 -->
                 <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">0</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">.</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">( )</button>
-                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">=</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">0</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl">.</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-500 active:bg-cyan-500 text-2xl" id="clr">del</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-orange-500 active:bg-orange-500 text-2xl">=</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- end note -->
-    <div class="end-note items-center flex justify-center font-bold pt-1 mt-16 lg:mt-0 md:mt-0">Made with ❤ GoKu</div>
+    <div class="end-note items-center flex justify-center font-bold pt-1 mt-16 lg:mt-0 md:mt-0">Made with ❤ by GoKu</div>
 
 
     <!-- JS -->
-    <script src="./script.js"></script>
+    <script src="./script.js">
+
+    </script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+:root{
+    /* --b-red: 2px solid red;
+    --b-blue: 2px solid blue; */
+
+    /* main border */
+    --b-cyan: 2px solid #00ADB5;
+}
+
+:root{
+    --t-black: #222831;
+    --t-white: #EEEEEE;
+}
+
+:root{
+    --bg-black: #222831;
+    --bg-grey: #393E46;
+    --bg-cyan: #00ADB5;
+    --bg-white: #EEEEEE;
+}

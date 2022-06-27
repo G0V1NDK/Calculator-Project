@@ -1,0 +1,56 @@
+/* tailwind css */
+@import url(./utils.css);
+
+/* genral classes */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.main-body{
+    border: var(--b-red);
+}
+
+
+
+
+/* main classes */
+/* calc outer */
+.main-body{
+    background-color: var(--bg-black);
+    color: var(--bg-white);
+}
+
+
+
+
+/* calc name */
+.calc-name{
+    border: var(--b-blue);
+    background-color: var(--bg-cyan);
+    color: var(--t-black);
+}
+
+/* calc screen */
+.calc-screen{
+    border: var(--b-red);
+    background-color: var(--bg-grey);
+}
+
+
+
+/* btn screen */
+.btn-screen{
+    border: var(--b-blue); 
+}
+
+/* btn section */
+.num-btn{
+    background-color: var(--bg-grey);
+    border: 2px solid #393E46;
+}
+
+/* end note */
+.end-note{
+    color: var(--t-white);
+}

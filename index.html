@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>My Calculator</title>
+</head>
+<body class="bg-main bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div class="main-body container mx-auto lg:w-6/12 p-8 rounded-2xl">
+        <!-- inner body -->
+        <div class="inner-body container mx-auto ">
+            <!-- heading -->
+            <div class="calc-name h-16 rounded-2xl flex items-center font-mono text-2xl justify-center font-bold mx-auto">
+                My Calculator
+            </div>
+            <!-- input screen -->
+            <input type="text" class="calc-screen h-20 my-8 rounded-2xl text-3xl w-full px-4 outline-none">
+            <!-- btn screen -->
+            <div class="btn-screen h-fit grid grid-row-5 space-y-4">
+                <!-- row-1 -->
+                <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">AC</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">+/-</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">%</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">÷</button>
+                </div>
+                <!-- row-2 -->
+                <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">7</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">8</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">9</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">×</button>
+                </div>
+                <!-- row-3 -->
+                <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">4</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">5</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">6</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">-</button>
+                </div>
+                <!-- row-4 -->
+                <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">1</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">2</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">3</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">+</button>
+                </div>
+                <!-- row-5 -->
+                <div class="row flex flex-wrap space-x-4 grid grid-cols-4">
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">0</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">.</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">( )</button>
+                    <button class="num-btn border-2  py-4 rounded-2xl hover:border-cyan-400 active:bg-cyan-500 text-2xl">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end note -->
+    <div class="end-note items-center flex justify-center font-bold pt-1 mt-16 lg:mt-0 md:mt-0">Made with ❤ GoKu</div>
+
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
